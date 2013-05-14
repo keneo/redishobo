@@ -2,10 +2,11 @@
 
 apt-get update
 apt-get -y install python-software-properties
-add-apt-repository -y ppa:chris-lea/redis-server
-# via http://askubuntu.com/questions/68576
-apt-get update
 
+# redis-server maintainer repo - http://askubuntu.com/questions/68576#75585
+add-apt-repository -y ppa:chris-lea/redis-server
+
+apt-get update
 
 apt-get install redis-server -V -y
 
