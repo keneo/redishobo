@@ -1,4 +1,4 @@
-A simple and probably safe vagrant configuration to create a box running redis.
+A simple and transparent vagrant configuration to create a box running redis.
 
 ## Instructions
 
