@@ -1,13 +1,12 @@
-A simple vagrant configuration to create a box running redis. More [here](http://jasonpunyon.com/blog/2013/01/28/get-your-redis-on-on-windows/)
+A simple and probably safe vagrant configuration to create a box running redis.
 
 ## Instructions
 
-
-0. Install Vagrant (http://docs.vagrantup.com/v1/docs/getting-started/index.html)
-1. Clone the repo.
-2. cd to that directory.
-3. vagrant up.
-4. Enjoy a tasty beverage. You've earned it.
+0. Install [Vagrant](http://docs.vagrantup.com/v1/docs/getting-started/index.html)
+1. Clone this repo locally.
+2. cd to that directory. ```cd redishobo```
+3. ```vagrant up```
+4. Redis is up and running
 
 ## License
 
